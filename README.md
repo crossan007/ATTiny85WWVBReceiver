@@ -49,7 +49,12 @@
 # Pinouts
 *  Costas Loop SIN output PWM on pin 2 (PB3)
 *  Costas Loop COS output PWM on pin 6 (PB1)
-*  Costas Loop output to ADC input pin 1 (PB5)
+*  Costas Loop I output to ADC input pin 1 (PB5)
+*  Costas Loop IQMix output to ADC input pin 3 (PB4)
 *  I2C output on pin 7 (PB2/SCK) and ping 5(PB0/SDA)
 *  Ground pin 4
 *  VCC pin 8
+
+
+# Block Diagam
+https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZ3JhcGggTFJcbiAgICBBTlRFTk5BIC0tPiBpbnB1dF9taXggICAgXG5cbiAgICBzdWJncmFwaCBjb3N0YXNcbiAgICBpbnB1dF9taXggLS0-IElcbiAgICBpbnB1dF9taXggLS0-IFFcbiAgICBBVFRpbnk4NSAtLT58UEIzLVBXTS1TSU58IElcbiAgICBBVFRpbnk4NSAtLT58UEIxLVBXTS1DT1N8IFFcbiAgICBJIC0tPiBJX0xQRlxuICAgIFEgLS0-IFFfTFBGXG5cbiAgICBJX0xQRiAtLT4gTWl4MVxuICAgIFFfTFBGIC0tPiBNaXgxXG5cbiAgICBJX0xQRiAtLT58UEI1fCBBVFRpbnk4NVxuICAgIE1peDEgLS0-fFBCNHwgQVRUaW55ODVcblxuICAgXG4gICAgZW5kXG5cbiAgICBBVFRpbnk4NSAtLT58UEIwfCBTREFcbiAgICBBVFRpbnk4NSAtLT58UEIyfCBTQ0siLCJtZXJtYWlkIjp7fSwidXBkYXRlRWRpdG9yIjpmYWxzZX0
