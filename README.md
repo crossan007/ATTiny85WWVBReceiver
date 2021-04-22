@@ -54,6 +54,17 @@ And, additionally, use the ATTiny85 to interpret/decode the baseband binary sign
 ## Misc
 * https://www.instructables.com/A-Software-Defined-Radio-on-a-Shoestring/
 
+## Antenna Design:
+Since the wavelength for 60khz is `4996.54096667` meters (`3.104` miles), we cannot reasonably create even a 1/4 wavelength antenna, so there must be another way.
+
+There is: Tuned ferrite rod anteannas:
+*  https://www.amazon.com/CANADUINO-Atomic-Clock-Receiver-60kHz/dp/B01KH3VEGS
+*  https://www.reddit.com/r/rfelectronics/comments/1w5s9h/how_can_an_antenna_for_60_khz_signals_be_made/cezesox/
+*  https://www.st-andrews.ac.uk/~www_pa/Scots_Guide/RadCom/part7/page5.html
+*  http://www.strobbe.eu/on7yd/136ant/#Loops
+*  http://www.creative-science.org.uk/MSF3.html
+*  http://www.ka7oei.com/wwvb_antenna.html
+
 
 # Idea:
 1) ATTiny85 PWM to implement the VCO portion of the Costas loop on PWM
